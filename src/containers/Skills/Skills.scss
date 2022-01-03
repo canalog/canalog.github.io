@@ -1,0 +1,43 @@
+@import "../../globalColor";
+
+/* */
+
+.skills-main {
+  background-color: $lightBackground1;
+  max-width: 90%;
+  padding: 15px 20px;
+  margin: 4rem auto;
+}
+
+/* Title */
+
+.skills-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.skills-list {
+  padding-left: 0;
+  list-style: none;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.skills-info {
+  display: inline-block;
+  margin: 0 1.5rem 1.5rem 0;
+  color: $subTitle;
+}
+
+.skills-info > i {
+  text-align: center;
+  margin: 1rem 0 0 0;
+  font-size: 3.5rem;
+}
+
+.skills-info > p {
+  font-size: 0.8rem;
+}
